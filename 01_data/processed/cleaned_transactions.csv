@@ -1,0 +1,31 @@
+transaction_id,transaction_date,clean_transaction_date,merchant_name,clean_merchant_name,raw_amount,currency,amount_usd,status,clean_status,risk_score,clean_risk_score,gateway_region,clean_gateway_region,user_id,payment_method,High_Value_Flag,High_Risk_Flag
+T001,01-03-26,2026-03-01, alpha mart ,Alpha Mart,420000,INR,4998,captured,Captured,62,62.00,APAC,APAC,U001,UPI,0,0
+T002,01-03-26,2026-03-01,ALPHA MART,Alpha Mart,210000,INR,2499,Captured ,Captured,55,55.00,,APAC,U002,Card,0,0
+T003,01-03-26,2026-03-01,BETA STORES ,Beta Stores,510000,INR,6069, CAPTURED,Captured,71,71.00, APAC ,APAC,U003,NetBanking,1,1
+T004,02-03-26,2026-03-02,Beta  Stores,Beta Stores,160000,INR,1904, failed e05 timeout ,Failed E05 Timeout,68,68.00,apac,APAC,U004,Card,0,0
+T005,02-03-26,2026-03-02,Alpha Mart,Alpha Mart,390000,INR,4641, CAPTURED,Captured,58,58.00,,APAC,U001,UPI,0,0
+T006,02-03-26,2026-03-02,Beta  Stores,Beta Stores,275000,INR,3272.5,Captured ,Captured,64,64.00,,APAC,U005,Wallet,0,0
+T007,02-03-26,2026-03-02,Alpha  Mart,Alpha Mart,450000,INR,5355,chargeback,Chargeback,83,83.00, APAC ,APAC,U006,Card,1,1
+T008,03-03-26,2026-03-03,BETA STORES ,Beta Stores,340000,INR,4046,Captured ,Captured,59,59.00,,APAC,U007,UPI,0,0
+T009,03-03-26,2026-03-03,Alpha Mart,Alpha Mart,125000,INR,1487.5,captured,Captured,46,46.00,APAC,APAC,U002,Wallet,0,0
+T010,03-03-26,2026-03-03,Beta Stores,Beta Stores,610000,INR,7259,captured,Captured,77,77.00,,APAC,U003,Card,1,1
+T011,03-03-26,2026-03-03,Alpha  Mart,Alpha Mart,195000,INR,2320.5,FAILED e05 TIMEOUT,Failed E05 Timeout,,0.00,,APAC,U008,UPI,0,1
+T012,04-03-26,2026-03-04,Beta  Stores,Beta Stores,250000,INR,2975,captured ,Captured,61,61.00, APAC ,APAC,U009,Card,0,0
+T013,04-03-26,2026-03-04, alpha mart ,Alpha Mart,310000,INR,3689,captured ,Captured,54,54.00,APAC,APAC,U010,UPI,0,0
+T014,04-03-26,2026-03-04,Beta  Stores,Beta Stores,470000,INR,5593,captured ,Captured,73,73.00,APAC,APAC,U001,NetBanking,1,1
+T015,04-03-26,2026-03-04,Alpha Mart,Alpha Mart,130000,INR,1547,captured,Captured,52,52.00,,APAC,U002,Card,0,0
+T016,05-03-26,2026-03-05,Beta  Stores,Beta Stores,220000,INR,2618,failed E05 timeout,Failed E05 Timeout,69,69.00,,APAC,U008,Card,0,0
+T017,05-03-26,2026-03-05,Beta  Stores,Beta Stores,180000,INR,2142,Failed E05 Timeout,Failed E05 Timeout,72,72.00,apac,APAC,U008,Card,0,1
+T018,05-03-26,2026-03-05,BETA STORES ,Beta Stores,145000,INR,1725.5, chargeback ,Chargeback,86,86.00, APAC ,APAC,U008,UPI,0,1
+T019,05-03-26,2026-03-05,Alpha  Mart,Alpha Mart,260000,INR,3094,Failed E05 Timeout,Failed E05 Timeout,67,67.00,apac,APAC,U008,Wallet,0,0
+T020,05-03-26,2026-03-05,Alpha Mart,Alpha Mart,520000,INR,6188,Captured ,Captured,75,75.00,APAC,APAC,U005,UPI,1,1
+T021,06-03-26,2026-03-06, beta stores,Beta Stores,330000,INR,3927,captured ,Captured,63,63.00,,APAC,U006,Card,0,0
+T022,06-03-26,2026-03-06,ALPHA MART,Alpha Mart,410000,INR,4879,captured ,Captured,60,60.00,APAC,APAC,U007,UPI,0,0
+T023,01-03-26,2026-03-01,City Pharma,City Pharma,5200,EUR,5616,Captured ,Captured,42,42.00, EU ,EU,U003,Card,0,0
+T024,02-03-26,2026-03-02,Eco Home,Eco Home,6100,EUR,6588, chargeback ,Chargeback,65,65.00,EU,EU,U004,Card,1,1
+T025,03-03-26,2026-03-03,City Pharma,City Pharma,2800,EUR,3024,captured ,Captured,38,38.00,eu,EU,U005,Wallet,0,0
+T026,05-03-26,2026-03-05,Eco Home,Eco Home,3300,EUR,3564,Failed E05 Timeout,Failed E05 Timeout,44,44.00, EU ,EU,U006,NetBanking,0,0
+T027,01-03-26,2026-03-01,DELTA TRAVELS,Delta Travels,7200,USD,7200,captured ,Captured,49,49.00,us,US,U007,Card,1,0
+T028,02-03-26,2026-03-02,Delta Travels,Delta Travels,3100,USD,3100, CAPTURED,Captured,41,41.00,US,US,U008,Card,0,0
+T029,04-03-26,2026-03-04,delta travels ,Delta Travels,2500,USD,2500, chargeback ,Chargeback,58,58.00,US,US,U009,Wallet,0,1
+T030,06-03-26,2026-03-06,DELTA TRAVELS,Delta Travels,1800,USD,1800,Failed E05 Timeout,Failed E05 Timeout,47,47.00,US,US,U010,UPI,0,0
